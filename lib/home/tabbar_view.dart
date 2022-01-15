@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:twitter_clone/home/search_view.dart';
 
-import '../home_view.dart';
+import 'home_view.dart';
 
 class TwitterTabbarView extends StatefulWidget {
   @override
@@ -59,7 +60,7 @@ class _TwitterTabbarViewState extends State<TwitterTabbarView> {
                     child: TabBarView(
                   children: [
                     HomeView(controller),
-                    Text("sasdas"),
+                    SearchView(),
                     Text("sasdas"),
                     Text("sasdas"),
                   ],
